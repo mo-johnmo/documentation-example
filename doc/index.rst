@@ -6,7 +6,7 @@
 John's helpful Sphinx -> GitHub pages example
 =============================================
 
-The riddle of the Sphinx!
+The example has already begun.
 
 .. toctree::
    :maxdepth: 3
