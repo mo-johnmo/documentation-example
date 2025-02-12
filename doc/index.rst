@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Dr John's helpful Sphinx -> GitHub pages example
-================================================
+John's helpful Sphinx -> GitHub pages example
+=============================================
 
 Come in, what seems to be the problem?
 
