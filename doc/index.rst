@@ -7,6 +7,7 @@ John's helpful Sphinx -> GitHub pages example
 =============================================
 
 The example has already begun, has it not?
+Yes, it has.
 
 .. toctree::
    :maxdepth: 3
