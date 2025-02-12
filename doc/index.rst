@@ -6,7 +6,7 @@
 John's helpful Sphinx -> GitHub pages example
 =============================================
 
-The example has already begun.
+The example has already begun, has it not?
 
 .. toctree::
    :maxdepth: 3
