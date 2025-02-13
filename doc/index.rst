@@ -5,7 +5,7 @@
 
 John's helpful Sphinx -> GitHub pages example
 =============================================
-This is but an introduction but everything has to start somewhere.
+Everything has to start somewhere and so does this intro.
 
 .. toctree::
    :maxdepth: 3
