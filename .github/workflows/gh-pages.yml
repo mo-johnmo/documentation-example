@@ -40,17 +40,16 @@ jobs:
       - name: Install dependencies
         run: |
           pip install sphinx sphinx_rtd_theme myst_parser
-      - name: Sphinx build
-        run: |
-          sphinx-build doc doc/build
 
       - name: Setup GHPages
         uses: actions/configure-pages@v5
 
+      - name: Sphinx build
+        run: |
+          sphinx-build doc ./_site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          source: doc/build
 
   # Deployment job
   deploy:
