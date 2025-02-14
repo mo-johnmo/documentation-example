@@ -37,15 +37,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Sphinx dependencies
+      - name: Install dependencies
         run: |
           pip install sphinx sphinx_rtd_theme myst_parser
-
       - name: Sphinx build
         run: |
           cd doc
-        # make html
-          sphinx-build doc/source doc/build
+          sphinx-build source build
 
       - name: Setup GHPages
         uses: actions/configure-pages@v5
