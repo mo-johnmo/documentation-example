@@ -37,19 +37,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Create environment
+      - name: Install Sphinx dependencies
         run: |
-          conda update conda
-          conda create --name cmew --file .github/workflows/cmew-env/cmew-env.lock
-          eval "$(conda shell.bash hook)"
-          conda activate cmew
+          pip install sphinx sphinx_rtd_theme myst_parser
 
-      - name: Build with Sphinx
+      - name: Sphinx build
         run: |
-          eval "$(conda shell.bash hook)"
-          conda activate cmew
           cd doc
-          make html
+        # make html
+          sphinx-build doc/source doc/build
 
       - name: Setup GHPages
         uses: actions/configure-pages@v5
@@ -70,3 +66,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
