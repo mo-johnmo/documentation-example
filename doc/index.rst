@@ -5,7 +5,7 @@
 
 John's helpful Sphinx -> GitHub pages example
 =============================================
-Everything has to start somewhere and so does this intro so let's get on with it.
+Deployment #4.  This time it's personal.
 
 .. toctree::
    :maxdepth: 3

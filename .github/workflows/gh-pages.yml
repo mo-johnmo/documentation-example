@@ -42,8 +42,7 @@ jobs:
           pip install sphinx sphinx_rtd_theme myst_parser
       - name: Sphinx build
         run: |
-          cd doc
-          sphinx-build source build
+          sphinx-build doc doc/build
 
       - name: Setup GHPages
         uses: actions/configure-pages@v5
