@@ -8,7 +8,7 @@ name: Build Sphinx Deploy GitHub Pages
 on:
   # Triggers the workflow on push (commit) to main branch
   push:
-    branches: ["main"]
+    branches: ["243b"]
   # Allows this workflow to be started manually from the Actions tab
   workflow_dispatch:
 

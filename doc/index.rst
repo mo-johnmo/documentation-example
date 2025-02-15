@@ -5,7 +5,7 @@
 
 John's helpful Sphinx -> GitHub pages example
 =============================================
-Deployment #5. Build to  ./_site
+Deployment #5. Build to  ./_site.  Trigger on Push from Branch 243b.
 
 .. toctree::
    :maxdepth: 3
