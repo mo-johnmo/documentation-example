@@ -46,10 +46,13 @@ jobs:
 
       - name: Sphinx build
         run: |
-          sphinx-build doc ./_site
+          sphinx-build doc ../doc_build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v3.0.1
+        with:
+          # default path: ./_site/
+          path: doc_build
 
   # Deployment job
   deploy:

@@ -5,7 +5,8 @@
 
 John's helpful Sphinx -> GitHub pages example
 =============================================
-Deployment #5. Build to  ./_site.  Trigger on Push from Branch 243b.
+Deployment #6. Trigger on Push from Branch 243b.
+Test doc build to other dir and upload from there. #1
 
 .. toctree::
    :maxdepth: 3
